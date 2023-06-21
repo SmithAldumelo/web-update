@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-color:#f3f2ef; 
+    font-family: 'Source Serif Pro', serif;
+}
+
+ .container{
+    
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5rem;
+ 
+ }
+
+
+.heading{
+    padding-top: 20%;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    z-index: 9999;
+  }
+  
+  .back-to-top:hover {
+    background:#ff6400;
+  }
+.nav-link{
+    color:#151514;
+    font-size:1.5rem;
+    /* margin-right: 30px; */
+    
+}
+.nav-link:hover{
+    color: #ff6400;
+}
+
+
+.heading > h1{
+    color: #000000;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}
+p{
+    color: #505050;
+    font-size: 0.9rem;
+    line-height: 20px;
+    font-family: 'Source Serif Pro', serif;
+ 
+}
+article div > button{
+    font-size: 0.6rem;
+    color: white;
+    background-color: #ff6400;
+    font-family: 'Source Serif Pro', serif;
+    width: 90px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+article div > button:hover{
+     background-color: #151514;
+}
+.icons{
+    margin:10px 0 0 0;
+}
+h5{
+   color: #151514;
+   display: inline-block; 
+   font-size: 1rem;
+   font-family: 'Source Serif Pro', serif;
+   font-weight: bold;
+}
+
+hr{
+    width: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: solid 1px #000000;
+  
+   
+}
+
+h3{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 0.7rem;
+    font-weight: bold; 
+}
+
+h2{
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Source Serif Pro', serif;
+}
+
+header{
+   
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+
+}
+
+.content{
+  
+    border-style: none;
+    background-color: #f3f2ef;
+    border-radius: 20px;
+   
+}
+.contentHr{
+    width: 80%;
+    margin-left: 40px;
+}
+
+.card-title{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #000000;
+   
+}
+.card-text{
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: 'Source Serif Pro', serif;
+     color: #505050;
+     padding: 10px;
+
+}
+
+main{
+    background-color:#000000;
+	padding: 30px;
+	height: 100%;
+    
+}
+
+form{
+  
+   
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background:#f2f1ef;
+    padding: 20px;
+    margin:8% auto 0;
+    
+}
+/* .form-hero{
+    text-align: center;
+} */
+
+.form-control{
+    margin: 10px 0 10px 0;
+}
+textarea{
+    margin-top: 20px;
+    resize: none;
+}
+.btn{
+    font-size: 0.6rem;
+    color: white;
+    background-color: #ff6400;
+    font-family: 'Source Serif Pro', serif;
+    width: 90px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.btn:hover{
+    background-color: #151514;
+}
+#Contact{
+    background-color:#fff;
+ 
+}
+footer{
+   background-color: #000000;
+   color: #797979;
+   padding: 20px;
+   
+ 
+   font-family: 'Source Serif Pro', serif;
+ 
+}
+/* .container > h3{
+    font-size: 0.7rem;
+    margin-top: 50px;
+    margin-left: 60px;
+    
+    
+} */
+.col-md-4 > h2{
+    color: #eee;  
+}
+a > .fa-brands{
+    font-size: 0.8rem;
+    border: none;
+    margin: 5px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.brands > h3 {
+    font-size: 0.8rem;
+   
+}
+h6{
+    color: #eee;  
+}
+.popup-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0 ;
+}
+.popup-container.hidden{
+    opacity: 0;
+    pointer-events: none;
+    
+}
+.popup{
+    background-color: #f3f2ef;
+    border-radius: 20px;
+    padding: 0 2rem;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+}
+.popup .close-popup{
+    position: absolute;
+    right: 1rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor:pointer;
+  
+}
+.form-info p{
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 20px;
+    color: #151514;
+}
+
+ 
+/* mobile view */
+
+@media screen and (max-width: 767px) {
+    .navbar-toggler{
+        margin-right: 80px;
+    }
+    .navbar-brand{
+        margin-left: -50px;
+    }
+
+    header{
+   
+        background-color: white;
+       padding-top: 30px;
+        height: 100%;
+    
+    }
+    
+    article > img {
+      display: none;
+    }
+    div > h1{
+        color: #eee;
+        font-size: 0.7em;
+        font-family: 'Source Serif Pro', serif;
+    }
+    .col{
+        margin: 10px;
+    }
+    .Testimonials{
+        color: #eee;
+        
+    }
+    #Contact{
+      
+        padding-top: 10px;
+    }
+    .container > h3{
+            font-size: 0.7rem;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        
+        
+    }
+    .form-hero{
+        text-align: center;
+    }
+    
+  
+
+       /* TABLET VIEW */
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    article > img {
+        display: none;
+      }
+      div > h1{
+          color: #eee;
+          font-size: 0.7em;
+          font-family: 'Source Serif Pro', serif;
+      }
+      .col{
+          margin: 10px;
+      }
+      .Testimonials{
+          color: #eee;
+      }
+      a > .fa-brands{
+        font-size: 0.8rem;
+        border: none;
+      }
+      .col-md-4 > h2{
+        color: #eee;  
+       
+    }
+    .brands{
+        margin-left: 50px;
+    }
+        
+  }
+
+
+  /* DESKTOP VIEW */
+
+@media (min-width:1024px){
+
+    .navbar{
+        margin-bottom: -70px !important;
+    }
+  .nav-link{
+    margin-left: 30px;
+  }
+      .navbar-brand{
+        margin-left: 20px;
+      }
+     
+
+   
+     /* .nav-item{
+        padding-right: 100px;
+       
+    }  */
+      
+     
+      header{
+   
+        background-color: white;
+        padding: 70px;
+        height: 100%;
+    
+    }
+    main{
+        background-color:#000000;
+        padding: 70px;
+        height: 100%;
+        
+    }
+    .Testimonials{
+        margin-bottom: 40px;
+        color: #eee;
+       
+    }
+    .form-hero{
+        text-align: center;
+    }
+    #Contact{
+        background-color:#fff;
+        padding: 50px;
+    }
+    article > img{ 
+      
+       
+       background-image: url(../img/imgbackground.png);
+      background-repeat: no-repeat;
+     background-size:contain;
+     background-position: center;
+     margin-left: 20%;
+    
+      
+       
+   }
+   section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+    font-family: "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+  .main{
+    margin-top: 20%;
+    margin-right: 10%;
+    
+    
+  }
+  .content{
+    border-style: none;
+    background-color: #f3f2ef;
+    border-radius: 20px;
+    
+}
+.main > h2{
+    font-size: 3rem;
+  
+}
+.card-title{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #000000;
+   
+}
+.card-text{
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: 'Source Serif Pro', serif;
+     color: #505050;
+     padding: 10px;
+
+}
+
+h1{
+    color: #eee;
+}
+
+.container > h2{
+    color: #000000;
+    margin-top: 30%;
+    margin-left: 20px;
+ 
+}
+.container > h3{
+    font-size: 0.7rem;
+    margin-top: 50px;
+    margin-left: 60px;
+    
+    
+}
+footer{
+    background-color: #000000;
+    color: #797979;
+    padding: 60px;
+    
+  
+    font-family: 'Source Serif Pro', serif;
+  
+ }
+
+  
+}
+  
+
